@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: La Reflexión
+draft: false
+tags:
+  - 
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+ 
+**La Reflexión** es una [newsletter](https://danielbarcelona.substack.com/) con nuevas ideas, lecturas y enlaces interesantes sobre finanzas personales; todo listo para tomar acción, de alguien que ya vive únicamente de sus inversiones.
