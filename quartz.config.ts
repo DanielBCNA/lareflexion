@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
+    locale: "es-ES",
     baseUrl: "lareflexion.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
