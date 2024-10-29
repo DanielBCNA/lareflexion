@@ -18,8 +18,10 @@ export const sharedPageComponents: SharedLayout = {
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.IndexFilter(Component.ArticleTitle()), // IndexFilter to block article title on homepage.
+    Component.IndexFilter(Component.ContentMeta()), // IndexFilter to block time to read, tags, etc on homepage.
+//    Component.ArticleTitle(),
+//    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
